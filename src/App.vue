@@ -1,6 +1,6 @@
 <template>
 <h3>Fawaka</h3>
-
+<button type="button" @click="age++"> Update Age </button>
 <greeting/>
 <user :age="age"/>
 </template>
